@@ -1,0 +1,573 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 1200px;
+  width: 1500px;
+}
+
+/* 10 div containers styled below */
+
+.header {
+  display: flex;
+  width: auto;
+  height: 100px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 1100px;
+  width: 1800px;
+  margin: 20px;
+}
+
+.score {
+  color: white;
+  height: 50px;
+  width: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 228px;
+}
+
+/* .flex-container1 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 228px;
+} */
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 228px;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 228px;
+}
+
+.flex-container4 {
+  display: flex;
+  margin-top: 50px;
+  width: auto;
+  height: 300px;
+  bottom: 0p;
+}
+
+.flex-container5 {
+  display: flex;
+  width: auto; 
+  height: auto;
+}
+.lives {
+  color: white;
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+/****************
+******************/
+
+/* 16 aliens all styled below in 4 rows of 4 */
+
+.box {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(754px / 2);
+  height: 192px;
+  background: url(../img/alienOne.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box1 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(754px / 2);
+  height: 192px;
+  background: url(../img/alienOne.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box2 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(754px / 2);
+  height: 192px;
+  background: url(../img/alienOne.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box3 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(754px / 2);
+  height: 192px;
+  background: url(../img/alienOne.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite, dropDownAnimation 2s infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box6 {
+  position: initial;
+  top: 20%;
+  left: 70%;
+  transform: translate (-50%, -50%);
+  width: calc(888px / 2);
+  height: 228px;
+  background: url(../img/alienTwo.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box7 {
+  position: initial;
+  top: 20%;
+  left: 70%;
+  transform: translate (-50%, -50%);
+  width: calc(888px / 2);
+  height: 228px;
+  background: url(../img/alienTwo.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box8 {
+  position: initial;
+  top: 20%;
+  left: 70%;
+  transform: translate (-50%, -50%);
+  width: calc(888px / 2);
+  height: 228px;
+  background: url(../img/alienTwo.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box9 {
+  position: initial;
+  top: 20%;
+  left: 70%;
+  transform: translate (-50%, -50%);
+  width: calc(888px / 2);
+  height: 228px;
+  background: url(../img/alienTwo.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box12 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box13 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box14 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box15 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box18 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box19 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box20 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box21 {
+  position: initial;
+  top: 20%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  width: calc(756px / 2);
+  height: 194px;
+  background: url(../img/alienThree.png);
+  animation-fill-mode: both;
+
+  animation: animate 2s steps(2) infinite;
+  animation-direction: alternate-reverse;
+}
+
+/* We need to be able to "chain" animations togethe so that it drops down on the Y axis at a certain point.*/
+
+@keyframes animate {
+  from {
+    background-position: 40px;
+    transform: translateX(0px);
+  }
+
+  to {
+    background-position: -800px;
+    transform: translateX(500px);
+  }
+}
+
+@keyframes dropDownAnimation {
+  0% {
+    top: 70%;
+  }
+  70% {
+    top: 40%;
+  }
+  100% {
+    top: 40%;
+  }
+}
+
+/* .heroTank {
+  margin: 80px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-image: url(../img/heroImage.png);
+} */
+
+/*********
+
+ANIMATION TO CONSIDER:
+
+animation-delay
+	this allows you to delay when the animation starts. For instance, once the game loads, how long before the space invaders begin to move?
+
+animation-direction
+	options: normal, alternate, reverse, alternative-reverse.
+
+***********/
+
+/*********
+
+NOTE TO CONSIDER
+
+As you can input images and make them travel across either the X or the Y axis, the bullets will travel on the Y axis. We will also need to position them so that they leave from the correct amount of pixels from the bottom of the page to coincide with the tank.
+
+Can I just apply the entire animation to the individual flex containers?
+
+
+***********/
+
+/* css for missile position */
+.missile{
+  height: 470px;
+  width:800px;
+
+}
+
+#playerMiss0{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss1{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss2{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss3{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss4{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss5{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss6{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss7{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss8{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss9{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss10{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss11{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss12{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss13{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss14{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss15{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss16{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss17{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss18{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss19{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+#playerMiss20{
+  position: absolute;
+  margin-left: 0;
+  left: 103;
+  /* top:1000px; */
+  bottom: 800;
+  width: 10px;
+  height: 10px;
+}
+
+/* tank css */
+#player {
+  position: absolute;
+  margin-left: 0;
+  left: 0;
+  /* bottom: 0; */
+  height: 100px;
+  width: auto;
+}
